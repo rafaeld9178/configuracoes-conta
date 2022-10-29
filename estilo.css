@@ -1,0 +1,135 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+    box-sizing: border-box;
+    font-size: 98%;
+}
+body,html {
+    height: 100%;
+    background: #E1E1F3;
+}
+ul {
+    list-style: none;
+}
+.pagina {
+    background: white;
+    width: 85%;
+    height: 150%;
+    border-radius: 25px 25px 0px 0px;
+    margin: 50px auto;
+    display: block;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+}
+.barra {
+    width: 12.5%;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.barra h1 {
+    padding-bottom: 25px;
+    font-size: 35px;
+}
+.barra h1, .selecionado {
+    color: #26263E;
+}
+.topo {
+    height: 10%;
+}
+.topo img {
+    float: left;
+}
+.links {
+    float: right;
+    padding-top: 15px;
+    padding-right: 25px;
+}
+.objetos {
+    float: right;
+    padding-top: 7.5px;
+    padding-left: 50px;
+    padding-right: 25px;
+}
+.objetos img {
+    padding-right: 25px;
+}
+.objetos button {
+    padding: 10px;
+}
+.links ul {
+    display: inline-block;
+}
+.links ul li {
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+}
+.logo {
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.link_barra {
+    margin-top: 25px;
+}
+.selecionado {
+    font-weight: bold;
+    font-size: 100%;
+    padding: 5px;
+    border-radius: 50px;
+    border: 1px solid #26263e26;
+}
+.config {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+.config h1 {
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+.setting {
+    padding-bottom: 25px;
+    line-height: 25px;
+}
+h2 {
+    padding-bottom: 25px;
+    font-size: 20px;
+}
+.change {
+    float: right;
+}
+.password p {
+    display: inline-block;
+}
+input {
+    padding: 20px;
+    color: #26263E;
+    border: 1px solid #26263E;
+    border-radius: 10px;
+    font-size: larger;
+}
+button {
+    background-color: #26263E;
+    color: white;
+    border: none;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+.setting hr {
+    margin-top: 25px;
+}
+a {
+    color: blue;
+}
+.delete {
+    color: red;
+}
+h1,h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
